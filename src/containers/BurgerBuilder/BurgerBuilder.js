@@ -7,7 +7,7 @@ class BurgerBuilder extends Component{
     render(){
         return (
             <Auxiliary>
-                <div>Burger</div>
+                <div>The Actual Burger</div>
                 <div>Builder Controls</div>
             </Auxiliary>
         );
