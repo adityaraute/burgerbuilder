@@ -38,7 +38,8 @@ class BurgerIngredient extends Component {
             
             
 }
-// BurgerIngredient.proptypes = {
-//     type: PropTypes.string.isRequired
-// }; 
+// eslint-disable-next-line react/no-typos
+BurgerIngredient.proptypes ={
+    type: PropTypes.string.isRequired
+}; 
 export default BurgerIngredient;
