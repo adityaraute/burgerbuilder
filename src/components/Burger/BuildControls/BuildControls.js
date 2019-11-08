@@ -3,16 +3,16 @@ import classes from './BuildControls.module.css';
 import BuildControl from './BuildControl/BuildControl';
 
 const controls=[
-    {label: 'Bacon', type:'bacon'},
     {label: 'Cheese', type:'cheese'},
+    {label: 'Salad', type:'salad'},
     {label: 'Meat', type:'meat'},
-    {label: 'Salad', type:'salad'}
+    {label: 'Bacon', type:'bacon'}
 
 ];
 
 const buildcontrols = (props) =>(
     <div className={classes.BuildControls}>
-        <h4>Total Price: $ {props.price.toFixed(2)}</h4>
+        <h4>Total Price: ${props.price.toFixed(2)}</h4>
         {controls.map(obj=>(
             
              <BuildControl 
