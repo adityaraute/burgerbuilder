@@ -9,7 +9,8 @@ const buildcontrol = (props) => (
         disabled={props.disabled}
         >Less</button>
         <button className={classes.More} onClick={props.added}>More</button>
-
+        {/* http://storysouth.com/stories/moving-heavy-objects/
+        https://fresh.ink/contest?utm_source=litbreaker&utm_medium=banner&utm_campaign=contest */}
     </div>
 );
 
